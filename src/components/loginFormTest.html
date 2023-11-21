@@ -1,0 +1,49 @@
+<HTML lang="es">
+    <link href="../styleApp.css" rel="stylesheet">
+
+    <header class="logo">
+        <img src="../images/logo_evitra.png" alt="logo" class="img-logo"/>
+    
+    </header>
+
+    <body class="bg-login">
+        <div class="container">
+            <form onSubmit=handleSubmit>
+                <div class='formlg'>
+                <div>
+                    <label class="item1" for="email">Usuario</label>
+                </div>
+                <div>
+                    <input class="item2" type="email" id="email" name="email" placeholder="Correo Electrónico" required/>
+                </div>
+                </div>
+              
+                <div class='formlg'>
+                <div>
+                    <label class="item1" for="password">Contraseña</label>
+                </div>
+                <div>
+                    <input class="item2" type="password" id="password" name="password" placeholder="Contraseña" required value={password}/>
+                </div>
+            </div>
+
+            <a href="#" class="">Olvidé mi contraseña</a>
+           
+                <div class="btn-ingresar">
+                    <button type="submit" class="btn">Ingresar</button>
+                </div>
+                
+                <div class="btn-ingresar">
+                    <button type="submit" class="btn">Crear cuenta</button>
+                </div>
+                </form>
+            
+        </div>
+    </body>
+
+    <footer class="footer"> 
+        <h4>Avisos de Privacidad / Contacto <a href="#/">soporte@evitra.mx </a>
+        / Derechos Reservados  </h4>
+            
+    </footer>
+</HTML>

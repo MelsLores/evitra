@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Evitra_project/static/css/main.913d598f.css",
+    "main.js": "/Evitra_project/static/js/main.2dc4f72a.js",
+    "static/js/787.ab006735.chunk.js": "/Evitra_project/static/js/787.ab006735.chunk.js",
+    "static/media/logo_evitra.png": "/Evitra_project/static/media/logo_evitra.764ced2c119953bd7218.png",
+    "index.html": "/Evitra_project/index.html",
+    "main.913d598f.css.map": "/Evitra_project/static/css/main.913d598f.css.map",
+    "main.2dc4f72a.js.map": "/Evitra_project/static/js/main.2dc4f72a.js.map",
+    "787.ab006735.chunk.js.map": "/Evitra_project/static/js/787.ab006735.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.913d598f.css",
+    "static/js/main.2dc4f72a.js"
+  ]
+}

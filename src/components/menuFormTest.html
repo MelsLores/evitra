@@ -1,0 +1,43 @@
+<HTML lang="es">
+    <link href="../styleApp.css" rel="stylesheet">
+
+    <header class="logo">
+        <img src="../images/logo_evitra.png" alt="logo" class="img-logo"/>
+    
+    </header>
+
+    <body class="bg-menu">
+        <div class="container">
+           <nav class="menu-lateral">
+                <ul>
+                    <li class="item-menu" onclick="toggleSubmenu('submenu1')">Dashboard</li>
+                    <ul id="submenu1" class="submenu">
+                        <li class="item-menu" onclick="toggleSubmenu('submenu1-1')">Dashboard 1.1</li>
+                        <ul id="submenu1-1" class="submenu">
+                            <li>Subitem1.1.1</li>
+                        </ul>
+                    </ul>
+                </ul>
+
+                
+           </nav>
+        </div>
+
+        <script>
+            function toggleSubmenu(submenuId){
+
+                var submenu = document.getElementById(submenuId);
+
+                submenu.style.display = (submenu.style.display === 'block') ? 'none' : 'block';
+               
+
+            }
+        </script>
+    </body>
+
+    <footer class="footer"> 
+        <h4>Avisos de Privacidad / Contacto <a href="#/">soporte@evitra.mx </a>
+        / Derechos Reservados  </h4>
+            
+    </footer>
+</HTML>
